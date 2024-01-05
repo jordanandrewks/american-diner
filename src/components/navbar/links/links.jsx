@@ -1,6 +1,7 @@
 import Link from "next/link";
 
-export default function Links() {
+export default function Links(test) {
+  console.log(test);
   const links = [
     {
       title: "Home",
@@ -21,7 +22,7 @@ export default function Links() {
   ];
 
   return (
-    <div>
+    <div className={test} >
       {links.map((link) => (
         <Link href={link.path} key={link.title}>
           {link.title}

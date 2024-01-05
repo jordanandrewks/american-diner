@@ -1,6 +1,17 @@
-.container {
-    display: flex;
-    background-color: rebeccapurple;
+.navbarContainer {
+  display: flex;
+  background-color: rebeccapurple;
 }
 
+.navbarLogoContainer {
+  flex: 1;
+}
 
+.navbarLogoText {
+  font-size: 30px;
+}
+
+.navbarLinks {
+    flex: 1;
+    height: 800px;
+}
