@@ -1,6 +1,7 @@
 import { Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
+import Footer from "@/components/footer/Footer";
 
 const roboto = Roboto({ subsets: ["latin"], weight: ["500", "700"] });
 
@@ -17,7 +18,19 @@ export default function RootLayout({ children }) {
           <Navbar />
         </div>
         {children}
-        <div>Footer</div>
+        <div style={{height: "500px", backgroundColor:"lightcoral"}}>
+          Test 0
+        </div>
+        <div style={{height: "500px", backgroundColor:"lightblue"}}>
+          Test 1 
+        </div>
+        <div style={{height: "500px", backgroundColor:"lightcoral"}}>
+          Test 2
+        </div>
+        <div style={{height: "500px", backgroundColor:"lightblue"}}>
+          Test 3
+        </div>
+        <Footer />
       </body>
     </html>
   );
