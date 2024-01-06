@@ -6,19 +6,19 @@ export default function Links(className) {
   console.log(className);
   const links = [
     {
-      title: "Home",
+      title: "HOME",
       path: "/",
     },
     {
-      title: "About",
+      title: "ABOUT",
       path: "/about",
     },
     {
-      title: "Contact",
+      title: "CONTACT",
       path: "/contact",
     },
     {
-      title: "Gallery",
+      title: "GALLERY",
       path: "/gallery",
     },
   ];
@@ -29,7 +29,7 @@ export default function Links(className) {
         <Link
           href={link.path}
           key={link.title}
-          style={{  display: "flex", justifyContent: "center" }}
+          className={styles.navbarLink}
         >
           {link.title}
         </Link>
