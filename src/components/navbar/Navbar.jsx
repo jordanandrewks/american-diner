@@ -9,7 +9,7 @@ export default function Navbar() {
         <p className={styles.navbarLogoText}>AMERICAN DINER</p>
       </div>
       <div>
-        <Links className={styles.navbarLinks}/>
+        <Links className={styles.navbarLinks} />
       </div>
     </div>
   );

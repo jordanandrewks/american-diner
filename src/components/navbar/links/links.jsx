@@ -1,7 +1,9 @@
+import React from "react";
 import Link from "next/link";
+import styles from "../navbar.module.css";
 
-export default function Links(test) {
-  console.log(test);
+export default function Links(className) {
+  console.log(className);
   const links = [
     {
       title: "Home",
@@ -22,9 +24,13 @@ export default function Links(test) {
   ];
 
   return (
-    <div className={test} >
+    <div className={styles.navbarLinks}>
       {links.map((link) => (
-        <Link href={link.path} key={link.title}>
+        <Link
+          href={link.path}
+          key={link.title}
+          style={{ flex: "1", display: "flex", justifyContent: "center" }}
+        >
           {link.title}
         </Link>
       ))}
