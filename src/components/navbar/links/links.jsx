@@ -29,7 +29,7 @@ export default function Links(className) {
         <Link
           href={link.path}
           key={link.title}
-          style={{ flex: "1", display: "flex", justifyContent: "center" }}
+          style={{  display: "flex", justifyContent: "center" }}
         >
           {link.title}
         </Link>
