@@ -26,11 +26,7 @@ export default function Links(className) {
   return (
     <div className={styles.navbarLinks}>
       {links.map((link) => (
-        <Link
-          href={link.path}
-          key={link.title}
-          className={styles.navbarLink}
-        >
+        <Link href={link.path} key={link.title} className={styles.navbarLink}>
           {link.title}
         </Link>
       ))}
