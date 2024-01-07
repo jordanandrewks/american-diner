@@ -3,7 +3,6 @@ import Link from "next/link";
 import styles from "../navbar.module.css";
 
 export default function Links(className) {
-  console.log(className);
   const links = [
     {
       title: "HOME",
