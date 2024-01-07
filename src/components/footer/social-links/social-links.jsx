@@ -1,38 +1,41 @@
-import Image from "next/image";
-import styles from "./footer.module.css";
+"use-client";
 
-export default function Links() {
+import styles from "../footer.module.css";
+import TestButton from "./test-button";
+
+export default function SocialLinks() {
   const links = [
     {
       src: "/icons/footer/tiktok-white-icon.svg",
       alt: "Tiktok",
+      url: "https://example.com",
     },
     {
       src: "/icons/footer/facebook-64.png",
       alt: "Facebook",
+      url: "https://example.com",
     },
     {
       src: "/icons/footer/icons8-instagram-52.svg",
       alt: "Instagram",
+      url: "https://example.com",
     },
     {
       src: "/icons/footer/icons8-twitterx-50.svg",
       alt: "TwitterX",
+      url: "https://example.com",
     },
   ];
 
   return (
     <div className={styles.socialContainer}>
       {links.map((link) => (
-        <button key={link.alt} className={styles.buttonContainer}>
-          <Image
-            className={styles.buttonImage}
-            src={link.src}
-            width={20}
-            height={20}
-            alt={link.alt}
-          />
-        </button>
+        <TestButton
+          key={link.alt}
+          linkSrc={link.src}
+          linkAlt={link.alt}
+          linkUrl={link.url}
+        />
       ))}
     </div>
   );
