@@ -4,10 +4,13 @@ import React from "react";
 import styles from "../footer.module.css";
 import Image from "next/image";
 
-const TestButton = (props) => {
+/* 
+  TODO: This might be able to be turned into a component which just opens external links? As that's the whole point of react/nextjs.
+*/
+
+const OpenSocialLinkButton = (props) => {
   const openNewTab = (url) => {
-    console.log(url);
-    // window.open(url, '_blank', 'noopener,noreferrer');
+    window.open(url, '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -28,4 +31,4 @@ const TestButton = (props) => {
   );
 };
 
-export default TestButton;
+export default OpenSocialLinkButton;

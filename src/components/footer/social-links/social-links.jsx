@@ -1,7 +1,8 @@
 "use-client";
 
+import React from "react";
 import styles from "../footer.module.css";
-import TestButton from "./test-button";
+import OpenSocialLinkButton from "./open-social-link-button";
 
 export default function SocialLinks() {
   const links = [
@@ -30,7 +31,7 @@ export default function SocialLinks() {
   return (
     <div className={styles.socialContainer}>
       {links.map((link) => (
-        <TestButton
+        <OpenSocialLinkButton
           key={link.alt}
           linkSrc={link.src}
           linkAlt={link.alt}
