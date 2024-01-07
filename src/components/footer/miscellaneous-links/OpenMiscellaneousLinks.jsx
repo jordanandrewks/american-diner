@@ -4,20 +4,20 @@ import Links from "next/link";
 export default function OpenMiscellaneousLinksButton() {
   const links = [
     {
-      title: "HOME",
-      path: "/",
+      title: "Terms",
+      path: "/terms",
     },
     {
-      title: "ABOUT",
-      path: "/about",
+      title: "Privacy",
+      path: "/privacy",
     },
     {
-      title: "CONTACT",
-      path: "/contact",
+      title: "Cookie Policy",
+      path: "/cookie",
     },
     {
-      title: "GALLERY",
-      path: "/gallery",
+      title: "Accessibility",
+      path: "/accessibility",
     },
   ];
 
