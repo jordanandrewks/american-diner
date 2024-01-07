@@ -1,7 +1,7 @@
 export default function Privacy() {
     return (
         <div>
-            Enter
+            Privacy Policy
         </div>
     );
 }
