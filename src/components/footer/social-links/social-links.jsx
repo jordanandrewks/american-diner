@@ -31,7 +31,6 @@ export default function SocialLinks() {
       alt: "TwitterX",
       url: "https://example.com",
     },
-    
   ];
 
   return (
