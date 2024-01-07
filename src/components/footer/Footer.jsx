@@ -1,6 +1,6 @@
-import React from "react";
 import styles from "./footer.module.css";
 import SocialLinks from "./social-links/social-links";
+import RightsReserved from "./rights-reserved/RightsReservedText";
 
 export default function Footer() {
   return (
@@ -10,9 +10,7 @@ export default function Footer() {
         <SocialLinks />
       </div>
       <div className={styles.bottomSectionContainer}>
-        <p className={styles.trademarkText}>
-          © American Diner, Inc. 2024. All rights reserved.
-        </p>
+        <RightsReserved />
       </div>
     </div>
   );
