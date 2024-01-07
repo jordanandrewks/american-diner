@@ -5,6 +5,11 @@ import styles from "../footer.module.css";
 import OpenSocialLinkButton from "./open-social-link-button";
 
 export default function SocialLinks() {
+  /*
+  
+    Add Social Media Links when needed below:
+
+  */
   const links = [
     {
       src: "/icons/footer/tiktok-white-icon.svg",
@@ -26,6 +31,7 @@ export default function SocialLinks() {
       alt: "TwitterX",
       url: "https://example.com",
     },
+    
   ];
 
   return (
