@@ -6,7 +6,7 @@ export default function CookieButton() {
     <div className={styles.container}>
       <button className={styles.cookieButton}>
         <Image
-        className={styles.cookieIcon}
+          className={styles.cookieIcon}
           src="/icons/cookies/icons8-cookie-100.png"
           width={48}
           height={48}

@@ -23,17 +23,15 @@
   box-shadow: 0 0 14px rgba(0, 0, 0, 0.6);
   background-color: rgb(104, 104, 104);
   opacity: 0.6;
-
 }
 
 .cookieButton:active {
-    box-shadow: 0 0 14px rgba(0, 0, 0, 0.6);
-    background-color: rgba(104, 104, 104, 0.7) ;
-    opacity: 0.9;
-  }
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.6);
+  background-color: rgba(104, 104, 104, 0.7);
+  opacity: 0.9;
+}
 
-  .cookieIcon {
-    object-fit: cover;
-    object-position: 0 1px;
-  }
-
+.cookieIcon {
+  object-fit: cover;
+  object-position: 0 1px;
+}

@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const OpenSocialLinkButton = (props) => {
   const openNewTab = (url) => {
-    window.open(url, '_blank', 'noopener,noreferrer');
+    window.open(url, "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -26,6 +26,7 @@ const OpenSocialLinkButton = (props) => {
         width={20}
         height={20}
         alt={props.linkAlt}
+        draggable={false}
       />
     </button>
   );
