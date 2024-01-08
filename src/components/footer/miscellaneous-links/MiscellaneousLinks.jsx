@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import styles from "./miscellaneousLinks.module.css"
 
 import OpenMiscellaneousLinksButton from "./OpenMiscellaneousLinks";
 
@@ -24,9 +25,9 @@ export default function MiscellaneousLinks() {
   ];
 
   return (
-    <div >
+    <div className={styles.container}>
       {links.map((link) => (
-        <Link href={link.path} key={link.title}>
+        <Link href={link.path} key={link.title} className={styles.pageLink}>
           {link.title}
         </Link>
       ))}
