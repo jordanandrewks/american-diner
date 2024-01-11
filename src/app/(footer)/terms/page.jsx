@@ -3,11 +3,9 @@ import GeneralUsePage from "@/components/general/GeneralUsePage";
 
 export default function Terms() {
   return (
-    < >
+    <>
       <div>
-        <GeneralUsePage title={"Terms & Conditions"} >
-
-            </GeneralUsePage>
+        <GeneralUsePage title={"Terms & Conditions"}></GeneralUsePage>
       </div>
     </>
   );
