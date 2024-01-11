@@ -1,3 +1,14 @@
+import { Head } from "next/head";
+
 export default function Home() {
-  return <div>HomePage</div>;
+  return;
+  <>
+    <Head>
+      <link
+        href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+        rel="stylesheet"
+      />
+    </Head>
+    <div>HomePage</div>;
+  </>;
 }
