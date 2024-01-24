@@ -22,6 +22,7 @@ We strive to deliver your food faster than Big Ben's hourly chime, but sometimes
 Please expect our delivery drivers to occasionally quote Shakespeare during deliveries for that extra British touch.
 <h3>3. Fish and Fables</h3>
 
+The images of our dishes are imaginative works of fiction, created by our in-house food artist, Sir Doodle-A-Lot.
 We cannot guarantee that your fish and chips will grant you a British knighthood.
 <h3>4. Surprise Ingredient Saturdays</h3>
 
