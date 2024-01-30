@@ -49,3 +49,8 @@
 .navbarLink:active {
   font-size: 15px;
 }
+
+.navbarUserContainer {
+  display: flex;
+  flex-direction: row;
+}
