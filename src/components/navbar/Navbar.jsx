@@ -1,7 +1,7 @@
 import styles from "./navbar.module.css";
 import Links from "./links/links";
 
-export default function Navbar() {
+export default function Navdar() {
   return (
     <div className={styles.navbarContainer}>
       <div className={styles.navbarLogoContainer}>

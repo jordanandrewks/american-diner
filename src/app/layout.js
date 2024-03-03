@@ -12,6 +12,10 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
+  /* turning off the test layouts for now. */
+  const testLayouts = false;
+
   return (
     <html lang="en">
       <body className={roboto.className}>
@@ -19,12 +23,16 @@ export default function RootLayout({ children }) {
           <Navbar />
         </div>
         {children}
-        <div style={{ height: "500px", backgroundColor: "lightcoral" }}>
-          Test 0
-        </div>
-        <div style={{ height: "500px", backgroundColor: "lightblue" }}>
-          Test 1
-        </div>
+        { testLayouts && (
+          <div>
+            <div style={{ height: "500px", backgroundColor: "lightcoral" }}>
+              Test 0
+            </div>
+            <div style={{ height: "500px", backgroundColor: "lightblue" }}>
+              Test 1
+            </div>
+          </div>
+        )}
         <CookieButton />
         <Footer />
       </body>
