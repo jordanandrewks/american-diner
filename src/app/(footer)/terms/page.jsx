@@ -1,11 +1,9 @@
-import styles from "./terms.module.css";
 import GeneralUsePage from "@/components/general/GeneralUsePage";
 
 export default function Terms() {
   return (
     <>
       <div>
-        {/* Should pass in the Terms and conditions... */}
         <GeneralUsePage
           title={"Terms & Conditions"}
           body={
