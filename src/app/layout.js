@@ -12,7 +12,6 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-
   /* turning off the test layouts for now. */
   const testLayouts = false;
 
@@ -23,7 +22,7 @@ export default function RootLayout({ children }) {
           <Navbar />
         </div>
         {children}
-        { testLayouts && (
+        {testLayouts && (
           <div>
             <div style={{ height: "500px", backgroundColor: "lightcoral" }}>
               Test 0
