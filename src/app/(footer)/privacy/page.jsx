@@ -4,7 +4,7 @@ export default function Privacy() {
   return (
     <div>
       <GeneralUsePage
-        title={"Privacy Policy"}
+        title={"PRIVACY POLICY"}
         body={
           <div>
             <p>Last updated: 05 March 2024</p>
