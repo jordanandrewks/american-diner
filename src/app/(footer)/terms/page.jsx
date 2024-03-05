@@ -5,7 +5,7 @@ export default function Terms() {
     <>
       <div>
         <GeneralUsePage
-          title={"Terms & Conditions"}
+          title={"TERMS & CONDITIONS"}
           body={
             <div>
               Welcome to the American Diner (UK), where we embrace American

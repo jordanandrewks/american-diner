@@ -8,7 +8,7 @@ export default function GeneralUsePage({ title, body }) {
       <h1 className={styles.title}>{title}</h1>
       <div className={styles.pageContainer}>
         {/* Below, needs to be change depending on the page. i.e. use this is as a proper component! */}
-        <div>{body}</div>
+        <div className={styles.body}>{body}</div>
       </div>
     </div>
   );
