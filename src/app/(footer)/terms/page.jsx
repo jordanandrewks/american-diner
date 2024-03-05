@@ -8,60 +8,78 @@ export default function Terms() {
           title={"TERMS & CONDITIONS"}
           body={
             <div>
-              Welcome to the American Diner (UK), where we embrace American
-              culture with a British twist and a side of sarcasm. These terms
-              and conditions are as binding as a feathered hat in a hurricane,
-              so please read them with a pinch of salt – or should we say, a
-              dash of vinegar?
-              <h3>1. Reservation of Absurdity</h3>
-              By entering our website, you agree to embark on a journey of
-              culinary confusion and comedic chaos. We reserve the right to
-              replace American apple pie with British crumpets on our menu, just
-              to keep you on your toes.
-              <h3>2. Orders and Tea Time</h3>
-              We strive to deliver your food faster than Big Ben's hourly chime,
-              but sometimes our chef takes a tea break. Please expect our
-              delivery drivers to occasionally quote Shakespeare during
-              deliveries for that extra British touch.
-              <h3>3. Fish and Fables</h3>
-              The images of our dishes are imaginative works of fiction, created
-              by our in-house food artist, Sir Doodle-A-Lot. We cannot guarantee
-              that your fish and chips will grant you a British knighthood.
-              <h3>4. Surprise Ingredient Saturdays</h3>
-              On Saturdays, our "Surprise Ingredient Special" may actually be a
-              surprise. It could be cricket flour, it could be fairy dust, who
-              knows?
-              <h3>5. Allergic Reactions</h3>
-              We are not responsible for allergic reactions caused by mistaking
-              "Marmite" for "Delight." Consult a local Brit for clarification.
-              <h3>6. Tea-Stealing Poltergeists</h3>
-              If your tea mysteriously disappears, it's not our fault. Blame it
-              on the mischievous tea-stealing poltergeists.
-              <h3>7. Proper English Etiquette</h3>
-              You may occasionally experience episodes of using words like
-              "bloke," "cheeky," or "cuppa" while dining with us. Don't be
-              alarmed; it's just our British spirit taking over.
-              <h3>8. Unconventional Pop Culture References</h3>
-              Our menu descriptions may contain witty references to the Royal
-              Family, Doctor Who, or Harry Potter. Don't be surprised if your
-              burger arrives with a tiny crown.
-              <h3>9. Biscuit vs. Cookie Debate</h3>
-              We don't take sides in the great biscuit vs. cookie debate, but we
-              do offer friendly debates on the subject every Tuesday afternoon.
-              <h3>10. Intellectual Property</h3>- Our fictitious dishes, like
-              the "Queen's Corgi Crunchwrap," are shielded by imaginary
-              double-decker bus copyrights. Any unauthorized duplication will
-              result in us offering you a spot of tea.
-              <h3>11. Legal Tea Break</h3>- These terms are as legally binding
-              as trying to solve the mystery of the Loch Ness Monster with a
-              magnifying glass.
-              <h3>12. Contact Us</h3>- If you have any questions, require
-              assistance with a crossword puzzle, or simply want to discuss the
-              weather, please contact us. Our butler will respond promptly or
-              when he finishes serving high tea. By continuing to explore our
-              website, you hereby confirm that you're ready to embrace the
-              comically confusing world of the American Diner (UK). Bon appétit,
-              or rather, jolly good show!
+              <h1>Terms & Conditions</h1>
+              <p>
+                Welcome to American Diner (UK). By accessing our website and
+                using our services, you agree to comply with and be bound by the
+                following terms and conditions of use. Please review these terms
+                carefully.
+              </p>
+              <h2>1. Acceptance of Terms</h2>
+              <p>
+                By accessing our website, you agree to the terms and conditions
+                outlined in this agreement. These terms apply to all users of
+                the site, including without limitation users who are browsers,
+                vendors, customers, merchants, and/or contributors of content.
+              </p>
+              <h2>2. Modification of Terms</h2>
+              <p>
+                We reserve the right to change or modify these terms at any
+                time. It is your responsibility to check this page periodically
+                for changes. Your continued use of or access to the website
+                following the posting of any changes constitutes acceptance of
+                those changes.
+              </p>
+              <h2>3. Food Orders</h2>
+              <p>
+                All orders placed through the website are subject to our
+                acceptance. We may limit or cancel quantities purchased per
+                person, per household, or per order. These restrictions may
+                include orders placed by or under the same customer account, the
+                same credit card, and/or orders that use the same billing and/or
+                shipping address.
+              </p>
+              <h2>4. Product Descriptions</h2>
+              <p>
+                We have made every effort to display as accurately as possible
+                the colors and images of our products that appear at the store.
+                We cannot guarantee that your computer monitor's display of any
+                color will be accurate.
+              </p>
+              <h2>5. Allergen Information</h2>
+              <p>
+                Please be aware that our dishes may contain allergens. It is the
+                customer's responsibility to consult with us regarding any
+                allergies before placing an order. We will not be held liable
+                for any allergic reactions.
+              </p>
+              <h2>6. Intellectual Property Rights</h2>
+              <p>
+                All content published and made available on our site is the
+                property of American Diner (UK) and the site's creators. This
+                includes, but is not limited to images, text, logos, documents,
+                downloadable files, and anything that contributes to the
+                composition of our site.
+              </p>
+              <h2>7. Limitation of Liability</h2>
+              <p>
+                American Diner (UK) and our directors, officers, agents,
+                employees, subsidiaries, and affiliates will not be liable for
+                any actions, claims, losses, damages, liabilities, and expenses
+                including legal fees from your use of the site.
+              </p>
+              <h2>8. Governing Law</h2>
+              <p>
+                These terms and conditions are governed by the laws of the
+                United Kingdom. Any disputes related to these terms and
+                conditions will be subject to the exclusive jurisdiction of the
+                courts of England and Wales.
+              </p>
+              <h2>9. Contact Information</h2>
+              <p>
+                For any questions about these terms and conditions, please
+                contact us at info@americandineruk.com.
+              </p>
             </div>
           }
         ></GeneralUsePage>
