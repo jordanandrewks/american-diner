@@ -8,7 +8,6 @@ export default function Terms() {
           title={"TERMS & CONDITIONS"}
           body={
             <div>
-              <h1>Terms & Conditions</h1>
               <p>
                 Welcome to American Diner (UK). By accessing our website and
                 using our services, you agree to comply with and be bound by the
