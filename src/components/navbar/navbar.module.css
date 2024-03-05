@@ -1,6 +1,6 @@
 .navbarContainer {
   display: flex;
-  background-color: rgb(232, 231, 231);
+  background-color: rgb(255, 255, 255);
   height: 100px;
   border-bottom: solid 1.5px;
   border-color: rgb(219, 219, 219);
@@ -12,20 +12,29 @@
 
 .navbarLogoContainer {
   display: flex;
-  width: 300px;
+  width: 400px;
   padding-left: 20px;
   padding-right: 20px;
   justify-content: center;
 }
 
 .navbarLogoText {
-  font-size: 30px;
+  color: rgb(234, 122, 18);
+  display: flex;
+  font-size: 45px;
+  font-family: 'Pacifico';
+  align-items: center;
+  text-shadow: 
+    -1px -1.5px 0 #000,  
+     1px -1.5px 0 #000,
+    -1px  1.5px 0 #000,
+     1px  1.5px 0 #000; /* Outline effect */
 }
 
 .navbarLinks {
   display: flex;
   height: 100%;
-  width: 500px;
+  width: 700px;
   justify-content: space-evenly;
   align-items: center;
   margin-left: 30px;

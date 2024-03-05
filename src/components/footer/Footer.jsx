@@ -18,3 +18,6 @@ export default function Footer() {
     </div>
   );
 }
+
+// todo add verified by visa
+// todo add food hygiene rating if it looks tasteful.
