@@ -12,6 +12,8 @@ export default function Home() {
         </video>
         Help
       </div>
+      <div className={styles.overlay}></div> {/* Overlay element */}
+
     </>
   );
 }

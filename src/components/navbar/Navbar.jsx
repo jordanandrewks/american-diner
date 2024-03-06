@@ -1,6 +1,7 @@
 import styles from "./navbar.module.css";
 import Links from "./links/links";
 
+// todo incorrect spelling...
 export default function Navdar() {
   return (
     <div className={styles.navbarContainer}>
