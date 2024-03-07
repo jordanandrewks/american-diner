@@ -1,10 +1,15 @@
 import Head from "next/head";
+import AnnouncementBanner from "@/components/banners/announcementBanner/announcement";
 import styles from "../components/homepage/HomePage.module.css";
 
 export default function Home() {
+  const announcementBanner = false;
+
   return (
     <>
       <Head></Head>
+      {/* Announcements on the homepage only. */}
+      {announcementBanner && <AnnouncementBanner />}
       <div className={styles.hero}>
         <video autoPlay muted loop className={styles.heroVideo}>
           <source src="/videos/hero-video-2024.mp4" type="video/mp4" />

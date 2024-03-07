@@ -3,9 +3,6 @@
     overflow: hidden;
     /* Set a specific height or make it responsive */
     height: 90vh;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
 }
 
 .heroVideo {
