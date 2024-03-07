@@ -17,11 +17,11 @@ export default function Home() {
         </video>
         <div className={styles.overlay}>
           <div className={styles.overlayContainer}>
-            <p className={styles.overlayText}>FOOD</p>
+            <p className={styles.overlayText}>EAT</p>
             <p className={styles.overlayText}>DRINK</p>
             <p className={styles.overlayText}>VIBES</p>
             <p className={styles.overlayText}>LIVE SPORTS</p>
-            <p className={styles.overlayText}>AMERICAN FOOD & BBQ DONE RIGHT</p>
+            <p className={styles.overlayTextBottomText}>AMERICAN FOOD & BBQ DONE RIGHT</p>
           </div>
         </div>{" "}
         {/* Overlay element */}

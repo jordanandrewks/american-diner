@@ -2,7 +2,7 @@
     position: relative;
     overflow: hidden;
     /* Set a specific height or make it responsive */
-    height: 90vh;
+    height: 70vh;
 }
 
 .heroVideo {
@@ -33,7 +33,15 @@
 
 .overlayText {
     color: white;
-    font-size: 40px;
+    font-size: 52px;
+    font-style: oblique;
+    padding: 0px;
+    margin: 15px;
+}
+
+.overlayTextBottomText {
+    color: white;
+    font-size: 35px;
     font-style: oblique;
     padding: 0px;
     margin: 15px;
