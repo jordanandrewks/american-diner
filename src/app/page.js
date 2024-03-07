@@ -10,10 +10,19 @@ export default function Home() {
           <source src="/videos/hero-video-2024.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        Help
+        <div className={styles.overlay}>
+          <div className={styles.overlayContainer}>
+            <p className={styles.overlayText}>FOOD</p>
+            <p className={styles.overlayText}>DRINK</p>
+            <p className={styles.overlayText}>VIBES</p>
+            <p className={styles.overlayText}>LIVE SPORTS</p>
+            <p className={styles.overlayText}>AMERICAN FOOD & BBQ DONE RIGHT</p>
+          </div>
+        </div>{" "}
+        {/* Overlay element */}
       </div>
-      <div className={styles.overlay}></div> {/* Overlay element */}
 
+      <div>Hello</div>
     </>
   );
 }

@@ -2,7 +2,8 @@
     position: relative;
     overflow: hidden;
     /* Set a specific height or make it responsive */
-    height: 100vh;
+    height: 90vh;
+    margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
 }
@@ -14,12 +15,29 @@
 }
 
 .overlay {
+    display: flex;
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
+    left: -1px;
+    right: -1px;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.7); /* Adjust the color and opacity to your liking */
     /* Ensure it covers the video */
     z-index: 1; /* This ensures the overlay is above the video but below the content */
   }
+
+.overlayContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    justify-content: end;
+}
+
+.overlayText {
+    color: white;
+    font-size: 40px;
+    font-style: oblique;
+    padding: 0px;
+    margin: 15px;
+}
