@@ -2,5 +2,32 @@
   display: flex;
   height: 50px;
   background-color: brown;
-  
 }
+
+
+/* Container to hold the scrolling text, ensuring the text moves within bounds */
+.scrollContainer {
+flex: 1;    
+overflow: hidden; /* Ensures the text is clipped to the container size */
+    white-space: nowrap; /* Keeps the text in a single line */
+    box-sizing: border-box;
+    /* Add additional styling for your banner here (e.g., background, padding) */
+  }
+  
+  /* Animation for the scrolling text */
+  @keyframes scrollText {
+    from {
+      transform: translateX(100vw); /* Start off-screen to the right */
+    }
+    to {
+      transform: translateX(-100vw); /* End off-screen to the left */
+    }
+  }
+  
+  /* Apply the animation to this class */
+  .scrollText {
+    display: inline-block;
+    animation: scrollText 20s linear infinite; /* Adjust timing as needed */
+    /* Add additional styling for your text here (e.g., font size, color) */
+  }
+  

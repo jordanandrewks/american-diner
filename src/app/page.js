@@ -3,7 +3,7 @@ import AnnouncementBanner from "@/components/banners/announcementBanner/announce
 import styles from "../components/homepage/HomePage.module.css";
 
 export default function Home() {
-  const announcementBanner = false;
+  const announcementBanner = true;
 
   return (
     <>
