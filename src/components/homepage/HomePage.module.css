@@ -32,7 +32,7 @@
 }
 
 .overlayText {
-    color: white;
+    color: rgb(234, 122, 18);
     font-size: 52px;
     font-style: oblique;
     padding: 0px;
@@ -40,7 +40,7 @@
 }
 
 .overlayTextBottomText {
-    color: white;
+    color: rgb(234, 122, 18);
     font-size: 35px;
     font-style: oblique;
     padding: 0px;
