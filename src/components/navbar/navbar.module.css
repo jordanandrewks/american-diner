@@ -9,7 +9,6 @@
   right: 0;
   top: 0;
   z-index: 999;
-
 }
 
 .navbarLogoContainer {
@@ -20,17 +19,8 @@
   justify-content: center;
 }
 
-.navbarLogoText {
-  color: rgb(234, 122, 18);
-  display: flex;
-  font-size: 40px;
-  font-family: 'Pacifico';
-  align-items: center;
-  text-shadow: 
-    -1px -1px 0 rgb(255, 255, 255),  
-     1px -1px 0 rgb(255, 255, 255),
-    -1px  1px 0 rgb(255, 255, 255),
-     1px  1px 0 rgb(255, 255, 255); /* Outline effect */
+.navbarLogo {
+  object-fit: contain;
 }
 
 .navbarLinks {
@@ -54,7 +44,7 @@
 }
 
 .navbarLink:hover {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 175, 46);
 }
 
 .navbarLink:active {
