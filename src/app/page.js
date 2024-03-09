@@ -27,7 +27,19 @@ export default function Home() {
         {/* Overlay element */}
       </div>
 
-      <div>Hello</div>
+      {/* A carasoul of some of the foods on offer */}
+      {/* add a button for to go the full menu */}
+      <div>EAT</div>
+
+      { /* Say what drink they offer, but say it has an inbuilt brewery or something */ }
+      <div>DRINK</div>
+
+      {/* Say What occurs here*/}
+      <div>VIBES</div>
+
+      {/* Say they do live sports - show the latest sports. */}
+      <div>LIVE SPORTS Viewing</div>
+      
     </>
   );
 }
