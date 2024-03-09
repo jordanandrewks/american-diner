@@ -17,11 +17,11 @@ export default function Home() {
         </video>
         <div className={styles.overlay}>
           <div className={styles.overlayContainer}>
-            <p className={styles.overlayText}>EAT</p>
-            <p className={styles.overlayText}>DRINK</p>
-            <p className={styles.overlayText}>VIBES</p>
-            <p className={styles.overlayText}>LIVE SPORTS</p>
-            <p className={styles.overlayTextBottomText}>AMERICAN FOOD & BBQ DONE RIGHT</p>
+            <p className={styles.overlayText}>EAT</p>         {/* make this scroll to the some food*/}
+            <p className={styles.overlayText}>DRINK</p>       {/* make this scroll to the some drinks*/}
+            <p className={styles.overlayText}>VIBES</p>       {/* make this scroll to events */}
+            <p className={styles.overlayText}>LIVE SPORTS</p> {/* make this scroll to events been shown */}
+            <p className={styles.overlayTextBottomText}>AMERICAN FOOD & BBQ DONE RIGHT</p>  {/* make this scroll a place where there's reviews etc. show 5 star food safety etc.  */}
           </div>
         </div>{" "}
         {/* Overlay element */}
