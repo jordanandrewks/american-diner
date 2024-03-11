@@ -46,3 +46,9 @@
     padding: 0px;
     margin: 15px;
 }
+
+.test {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
