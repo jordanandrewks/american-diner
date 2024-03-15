@@ -4,7 +4,7 @@ import styles from "../components/homepage/HomePage.module.css";
 import ImageCarousel from "../components/carousel/carousel";
 
 export default function Home() {
-  const announcementBanner = true;
+  const announcementBanner = false;
 
   const images = [
     { url: "/logo/navbar-logo.png", alt: "Image 1", caption: "Caption 1" },
