@@ -22,7 +22,7 @@ const links = [
 ];
 
 export default function Links(className) {
-  // todo - add open, isOpen for hamburger menu ( if we need it... )
+  /* todo - add open, isOpen for hamburger menu ( if we need it... ) */
   const session = false;
   const isAdmin = false;
 
