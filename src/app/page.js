@@ -35,27 +35,18 @@ export default function Home() {
             <p className={styles.overlayTextBottomText}>
               AMERICAN FOOD & BBQ DONE RIGHT
             </p>{" "}
+            <button>Play/Pause</button>
             {/* make this scroll a place where there's reviews etc. show 5 star food safety etc.  */}
           </div>
         </div>{" "}
         {/* Overlay element */}
       </div>
 
-      {/* A carasoul of some of the foods on offer */}
-      {/* add a button for to go the full menu */}
-      <div className={styles.test}>
-        EAT
-        <ImageCarousel images={images} />
-      </div>
-
-      {/* Say what drink they offer, but say it has an inbuilt brewery or something */}
-      <div>DRINK</div>
-
-      {/* Say What occurs here*/}
-      <div>VIBES</div>
-
-      {/* Say they do live sports - show the latest sports. */}
-      <div>LIVE SPORTS Viewing</div>
+      {/* A carousel of some of the foods on offer */}
+      <div>menu most popular section and info</div>
+      <div>drinks sample section and info</div>
+      <div>vibes section x Live Sports</div>
+      <div>Google live location</div>
     </>
   );
 }
