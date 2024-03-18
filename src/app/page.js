@@ -38,7 +38,7 @@ export default function Home() {
             <button>Play/Pause</button>
             {/* make this scroll a place where there's reviews etc. show 5 star food safety etc.  */}
           </div>
-        </div>{" "}
+        </div>
         {/* Overlay element */}
       </div>
 
