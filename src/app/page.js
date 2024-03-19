@@ -39,7 +39,6 @@ export default function Home() {
             <p className={styles.overlayTextBottomText}>
               AMERICAN FOOD & BBQ DONE RIGHT
             </p>{" "}
-            <button>Play/Pause</button>
             {/* make this scroll a place where there's reviews etc. show 5 star food safety etc.  */}
           </div>
         </div>

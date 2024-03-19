@@ -1,4 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from "react";
+import PlayPauseButton from "../play-pause-button/PlayPauseButton";
 
 const VideoPlayer = ({ src }) => {
   const videoRef = useRef(null);
@@ -8,14 +9,16 @@ const VideoPlayer = ({ src }) => {
     const video = videoRef.current;
     const playPromise = video.play();
     if (playPromise !== undefined) {
-      playPromise.then(() => {
-        // Autoplay started!
-        setIsPlaying(true);
-      }).catch(error => {
-        // Autoplay was prevented.
-        console.log('Autoplay was prevented:', error);
-        setIsPlaying(false);
-      });
+      playPromise
+        .then(() => {
+          // Autoplay started!
+          setIsPlaying(true);
+        })
+        .catch((error) => {
+          // Autoplay was prevented.
+          console.log("Autoplay was prevented:", error);
+          setIsPlaying(false);
+        });
     }
   }, []);
 
@@ -36,22 +39,14 @@ const VideoPlayer = ({ src }) => {
         <source src={src} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <button onClick={togglePlayPause}>
+      {/* <button onClick={togglePlayPause}>
         {isPlaying ? 'Pause' : 'Play'}
-      </button>
+      </button> */}
+      <PlayPauseButton></PlayPauseButton>
+
       <style jsx>{`
         .hero {
           position: relative;
-        }
-        button {
-          position: absolute;
-          top: 20px; /* Adjust as necessary */
-          left: 20px; /* Adjust as necessary */
-          z-index: 10;
-          padding: 10px;
-          background-color: #fff;
-          border: none;
-          cursor: pointer;
         }
       `}</style>
     </div>

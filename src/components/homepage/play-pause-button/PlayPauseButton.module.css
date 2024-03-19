@@ -1,0 +1,10 @@
+.container {
+    position: absolute;
+    top: 20px; /* Adjust as necessary */
+    right: 20px; /* Adjust as necessary */
+    z-index: 10;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
