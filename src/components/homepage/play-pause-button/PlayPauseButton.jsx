@@ -1,11 +1,22 @@
 import React from "react";
 import styles from "./PlayPauseButton.module.css";
 
-const PlayPauseButton = () => {
+const PlayPauseButton = ({ isPlaying, onButtonClickCallBack }) => {
+  const test = () => {
+    console.log(isPlaying);
+  };
 
   return (
     <div>
-      <button onClick={() => console.log("Hello")} className={styles.container}>Hello</button>
+      <button
+        onClick={() => {
+          onButtonClickCallBack();
+          test();
+        }}
+        className={styles.container}
+      >
+        Hello
+      </button>
     </div>
   );
 };

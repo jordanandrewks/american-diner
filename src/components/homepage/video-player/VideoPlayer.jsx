@@ -42,7 +42,10 @@ const VideoPlayer = ({ src }) => {
       {/* <button onClick={togglePlayPause}>
         {isPlaying ? 'Pause' : 'Play'}
       </button> */}
-      <PlayPauseButton></PlayPauseButton>
+      <PlayPauseButton
+        onButtonClickCallBack={togglePlayPause}
+        isPlaying={!isPlaying}
+      />
 
       <style jsx>{`
         .hero {
