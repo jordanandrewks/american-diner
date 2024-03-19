@@ -1,7 +1,6 @@
 import Head from "next/head";
 import AnnouncementBanner from "@/components/banners/announcementBanner/announcement";
 import styles from "../components/homepage/HomePage.module.css";
-import ImageCarousel from "../components/carousel/carousel";
 
 export default function Home() {
   const announcementBanner = true;
