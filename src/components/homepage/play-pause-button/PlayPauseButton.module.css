@@ -3,8 +3,15 @@
     top: 20px; /* Adjust as necessary */
     right: 20px; /* Adjust as necessary */
     z-index: 10;
+    width: 40px;
+    height: 40px;
     padding: 10px;
-    background-color: #fff;
+    background-color: #ffffff4c;
     border: none;
     cursor: pointer;
+    border-radius: 100%;
+}
+
+.container:hover {
+    background-color: #ffffff97;
 }
