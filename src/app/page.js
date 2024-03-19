@@ -1,6 +1,9 @@
+'use client'
+
 import Head from "next/head";
 import AnnouncementBanner from "@/components/banners/announcement-banner/Announcement";
 import styles from "../components/homepage/HomePage.module.css";
+import VideoPlayer from "@/components/homepage/video-player/VideoPlayer";
 
 export default function Home() {
   const announcementBanner = true;
@@ -17,10 +20,12 @@ export default function Home() {
       {/* Announcements on the homepage only. */}
       {announcementBanner && <AnnouncementBanner />}
       <div className={styles.hero}>
-        <video autoPlay muted loop className={styles.heroVideo}>
-          <source src="/videos/hero-video-2024.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        {/*<video autoPlay muted loop className={styles.heroVideo}>*/}
+        {/*  <source src="/videos/hero-video-2024.mp4" type="video/mp4" />*/}
+        {/*  Your browser does not support the video tag.*/}
+        {/*</video>*/}
+        <VideoPlayer src="/videos/hero-video-2024.mp4"></VideoPlayer>
+
         <div className={styles.overlay}>
           <div className={styles.overlayContainer}>
             <p className={styles.overlayText}>EAT</p>{" "}
