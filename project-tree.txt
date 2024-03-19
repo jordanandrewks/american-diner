@@ -16251,10 +16251,10 @@
     ├── components
     │   ├── banners
     │   │   └── announcementBanner
-    │   │       ├── announcement.jsx
+    │   │       ├── Announcement.jsx
     │   │       └── announcement.module.css
     │   ├── carousel
-    │   │   └── carousel.jsx
+    │   │   └── Carousel.jsx
     │   ├── cookie
     │   │   ├── CookieButton.jsx
     │   │   └── CookieButton.module.css
@@ -16268,8 +16268,8 @@
     │   │   │   ├── RightsReservedText.jsx
     │   │   │   └── RightsReservedYear.jsx
     │   │   └── social-links
-    │   │       ├── open-social-link-button.jsx
-    │   │       └── social-links.jsx
+    │   │       ├── OpenSocialLinkButton.jsx
+    │   │       └── SocialLinks.jsx
     │   ├── general
     │   │   ├── GeneralUsePage.jsx
     │   │   └── GeneralUsePage.module.css
@@ -16278,7 +16278,7 @@
     │   └── navbar
     │       ├── Navbar.jsx
     │       ├── links
-    │       │   └── links.jsx
+    │       │   └── Links.jsx
     │       └── navbar.module.css
     └── lib
 

@@ -1,5 +1,5 @@
-import styles from "./footer.module.css";
-import SocialLinks from "./social-links/social-links";
+import styles from "./Footer.module.css";
+import SocialLinks from "./social-links/SocialLinks";
 import RightsReserved from "./rights-reserved/RightsReservedText";
 import MiscellaneousLinks from "./miscellaneous-links/MiscellaneousLinks";
 

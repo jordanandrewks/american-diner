@@ -1,4 +1,4 @@
-import styles from "./announcement.module.css";
+import styles from "./Announcement.module.css";
 
 const AnnouncementBanner = () => {
   return (

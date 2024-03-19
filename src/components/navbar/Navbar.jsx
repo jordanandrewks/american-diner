@@ -1,5 +1,5 @@
-import styles from "./navbar.module.css";
-import Links from "./links/links";
+import styles from "./Navbar.module.css";
+import Links from "./links/Links";
 import Image from "next/image";
 import Link from "next/link";
 
