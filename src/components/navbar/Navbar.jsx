@@ -3,7 +3,6 @@ import Links from "./links/Links";
 import Image from "next/image";
 import Link from "next/link";
 
-// todo incorrect spelling...
 export default function Navbar() {
   return (
     <div className={styles.navbarContainer}>
