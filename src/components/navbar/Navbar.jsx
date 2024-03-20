@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 // todo incorrect spelling...
-export default function Navdar() {
+export default function Navbar() {
   return (
     <div className={styles.navbarContainer}>
       <div className={styles.navbarLogoContainer}>
@@ -16,6 +16,7 @@ export default function Navdar() {
             height={100}
             draggable={false}
             className={styles.navbarLogo}
+            priority
           />
         </Link>
       </div>

@@ -1,9 +1,8 @@
 .navbarContainer {
   display: flex;
   background-color: var(--primary-color);
-  border-color: var(--secondary-color);
+  border-bottom: solid 2px var(--secondary-color);
   height: 100px;
-  border-bottom: solid 2px;
   position: fixed;
   left: 0;
   right: 0;

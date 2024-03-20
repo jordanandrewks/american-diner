@@ -10,11 +10,15 @@ import VibesSection from "@/components/homepage/sections/vibes-section/VibesSect
 import LiveSportsSection from "@/components/homepage/sections/live-sports-section/LiveSportsSection";
 
 export default function Home() {
-  const announcementBanner = true;
+  const announcementBanner = false;
 
   return (
     <>
-      <Head></Head>
+      <Head>
+        <link rel="preload" href="/logo/navbar-logo.png" as="style">
+          {" "}
+        </link>
+      </Head>
       {/* Announcements on the homepage only. */}
       {announcementBanner && <AnnouncementBanner />}
       <div className={styles.hero}>
