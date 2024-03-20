@@ -4,15 +4,13 @@ import Head from "next/head";
 import AnnouncementBanner from "@/components/banners/announcement-banner/Announcement";
 import styles from "../components/homepage/HomePage.module.css";
 import VideoPlayer from "@/components/homepage/video-player/VideoPlayer";
+import EatSection from "@/components/homepage/sections/eat-section/EatSection";
+import DrinkSection from "@/components/homepage/sections/drink-section/DrinkSection";
+import VibesSection from "@/components/homepage/sections/vibes-section/VibesSection";
+import LiveSportsSection from "@/components/homepage/sections/live-sports-section/LiveSportsSection";
 
 export default function Home() {
   const announcementBanner = true;
-
-  const images = [
-    { url: "/logo/navbar-logo.png", alt: "Image 1", caption: "Caption 1" },
-    { url: "/logo/navbar-logo.png", alt: "Image 2", caption: "Caption 2" },
-    // Add more images as needed
-  ];
 
   return (
     <>
@@ -45,10 +43,11 @@ export default function Home() {
         {/* Overlay element */}
       </div>
 
-      {/* A carousel of some of the foods on offer */}
-      <div>menu most popular section and info</div>
-      <div>drinks sample section and info</div>
-      <div>vibes section x Live Sports</div>
+      <EatSection />
+      <DrinkSection />
+      <VibesSection />
+      <LiveSportsSection />
+
       <div>Google live location</div>
     </>
   );
