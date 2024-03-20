@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import PlayPauseButton from "../play-pause-button/PlayPauseButton";
+import style from "./VideoPlayer.module.css";
 
 const VideoPlayer = ({ src }) => {
   const videoRef = useRef(null);
@@ -34,7 +35,7 @@ const VideoPlayer = ({ src }) => {
   };
 
   return (
-    <div className="hero">
+    <div className={style.hero}>
       <video ref={videoRef} width="100%" loop muted>
         <source src={src} type="video/mp4" />
         Your browser does not support the video tag.
@@ -46,12 +47,6 @@ const VideoPlayer = ({ src }) => {
         onButtonClickCallBack={togglePlayPause}
         isPlaying={!isPlaying}
       />
-
-      <style jsx>{`
-        .hero {
-          position: relative;
-        }
-      `}</style>
     </div>
   );
 };
