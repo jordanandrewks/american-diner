@@ -9,6 +9,7 @@ const VideoPlayer = ({ src }) => {
   useEffect(() => {
     const video = videoRef.current;
     const playPromise = video.play();
+
     if (playPromise !== undefined) {
       playPromise
         .then(() => {
@@ -40,9 +41,6 @@ const VideoPlayer = ({ src }) => {
         <source src={src} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      {/* <button onClick={togglePlayPause}>
-        {isPlaying ? 'Pause' : 'Play'}
-      </button> */}
       <PlayPauseButton
         onButtonClickCallBack={togglePlayPause}
         isPlaying={!isPlaying}
