@@ -7,3 +7,9 @@ body {
   height: 1000px;
   min-height: 100vh;
 }
+
+:root {
+  --primary-color: rgb(2, 2, 2);
+  --secondary-color: rgb(234, 122, 18);
+  --secondary-color-hover: rgb(255, 175, 46);
+}

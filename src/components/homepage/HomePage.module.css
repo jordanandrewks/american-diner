@@ -37,7 +37,7 @@
 }
 
 .overlayText {
-  color: rgb(234, 122, 18);
+  color: var(--secondary-color);
   font-size: 52px;
   font-style: oblique;
   padding: 0px;
@@ -45,7 +45,7 @@
 }
 
 .overlayTextBottomText {
-  color: rgb(234, 122, 18);
+  color: var(--secondary-color);
   font-size: 35px;
   font-style: oblique;
   padding: 0px;
