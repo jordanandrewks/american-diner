@@ -36,8 +36,8 @@ const VideoPlayer = ({ src }) => {
   };
 
   return (
-    <div className={style.hero}>
-      <video ref={videoRef} width="100%" loop muted>
+    <div className={style.videoContainer}>
+      <video ref={videoRef} className={style.heroVideo} loop muted>
         <source src={src} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
