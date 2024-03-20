@@ -16,7 +16,7 @@ export default function Navbar() {
             height={100}
             draggable={false}
             className={styles.navbarLogo}
-            priority
+            priority  // must load first! This avoids "flash of unstyled content" (FOUC).
           />
         </Link>
       </div>
