@@ -8,6 +8,7 @@ import EatSection from "@/components/homepage/sections/eat-section/EatSection";
 import DrinkSection from "@/components/homepage/sections/drink-section/DrinkSection";
 import VibesSection from "@/components/homepage/sections/vibes-section/VibesSection";
 import LiveSportsSection from "@/components/homepage/sections/live-sports-section/LiveSportsSection";
+import HeroDivider from "@/components/homepage/hero-divider/HeroDivider";
 
 export default function Home() {
   const announcementBanner = false;
@@ -41,7 +42,7 @@ export default function Home() {
         </div>
         {/* Overlay element */}
       </div>
-
+      <HeroDivider />
       <EatSection />
       <DrinkSection />
       <VibesSection />

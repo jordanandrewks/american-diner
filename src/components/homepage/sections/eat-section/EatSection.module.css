@@ -1,13 +1,39 @@
 .container {
-    flex: 1;
-    display: flex;   
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.awardContainer {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  height: 300px;
+  flex-direction: row;
+}
+
+.leftSection {
+  flex: 1;
+  margin: 5px;
+  background-color: rgb(31, 31, 31);
+}
+
+.rightSection {
+  flex: 1;
+  margin: 5px;
+  background-color: rgb(31, 31, 31);
+}
+
+.subTitle {
+  font-size: 30px;
 }
 
 .item {
-    display: flex;
-    height: 100px;
-    width: 100px;
-    background-color: rgb(35, 33, 29);
+    flex: 1;
+  display: flex;
+  height: 100px;
+  background-color: rgb(35, 33, 29);
+  margin: 5px;
 }
