@@ -42,7 +42,7 @@ export default function Home() {
         </div>
         {/* Overlay element */}
       </div>
-      {/* <HeroDivider /> */}
+      <HeroDivider />
       <EatSection />
       <DrinkSection />
       <VibesSection />
