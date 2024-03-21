@@ -7,10 +7,6 @@ import FoodMenuItem from "./food-menu-item/FoodMenuItem";
 const EatSection = () => {
   return (
     <SectionContainer>
-      {/* <div>
-        <p className={styles.subTitle}>2023 </p>
-      </div> */}
-
       <div className={styles.container}>
         <div className={styles.leftContainer}>
           {/* Top Section, Winners of 2023 awards*/}

@@ -1,0 +1,7 @@
+.container {
+  flex: 1;
+  display: flex;
+  background-color: grey;
+  margin: 5px;
+  height: 400px;
+}
