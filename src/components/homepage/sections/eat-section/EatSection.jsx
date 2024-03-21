@@ -24,6 +24,7 @@ const EatSection = () => {
             <div className={styles.item}>item 4</div>
           </div>
         </div>
+        {/* To Menu Button */}
         <div className={styles.rightContainer}>
           <button>F</button>
         </div>
