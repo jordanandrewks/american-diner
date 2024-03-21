@@ -1,0 +1,13 @@
+.container {
+    flex: 1;
+    display: flex;   
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(35, 33, 29);
+}
