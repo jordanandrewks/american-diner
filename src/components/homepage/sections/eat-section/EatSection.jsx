@@ -2,6 +2,7 @@ import React from "react";
 import SectionContainer from "@/components/homepage/sections/SectionContainer";
 import styles from "./EatSection.module.css";
 import SectionMenuButton from "../../section-menu-button/SectionMenuButton";
+import FoodMenuItem from "./food-menu-item/FoodMenuItem";
 
 const EatSection = () => {
   return (
@@ -19,10 +20,10 @@ const EatSection = () => {
           </div>
 
           <div className={styles.itemContainer}>
-            <div className={styles.item}>item 1</div>
-            <div className={styles.item}>item 2</div>
-            <div className={styles.item}>item 3</div>
-            <div className={styles.item}>item 4</div>
+            <FoodMenuItem demoName={"Item 1"} />
+            <FoodMenuItem demoName={"Item 2"} />
+            <FoodMenuItem demoName={"Item 3"} />
+            <FoodMenuItem demoName={"Item 4"} />
           </div>
         </div>
         {/* To Menu Button */}

@@ -42,11 +42,3 @@
 .subTitle {
   font-size: 30px;
 }
-
-.item {
-  flex: 1;
-  display: flex;
-  height: 200px;
-  background-color: rgb(35, 33, 29);
-  margin: 5px;
-}
