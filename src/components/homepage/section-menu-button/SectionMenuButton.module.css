@@ -1,3 +1,18 @@
 .container {
-    
+  width: 100px;
+  margin: 5px;
+  height: auto;
+  background-color: rgb(31, 31, 31);
+  cursor: pointer;
+  justify-content: left;
+  align-content: center;
+  padding-left: 20px;
+}
+
+.buttonTextContainer {
+  font-size: 20px;
+}
+
+.buttonText {
+  margin: 0px;
 }

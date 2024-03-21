@@ -1,6 +1,7 @@
 import React from "react";
 import SectionContainer from "@/components/homepage/sections/SectionContainer";
 import styles from "./EatSection.module.css";
+import SectionMenuButton from "../../section-menu-button/SectionMenuButton";
 
 const EatSection = () => {
   return (
@@ -25,9 +26,10 @@ const EatSection = () => {
           </div>
         </div>
         {/* To Menu Button */}
-        <div className={styles.rightContainer}>
-          <button>F</button>
-        </div>
+        <SectionMenuButton
+          placeHolderTextLine1={"FOOD"}
+          placeHolderTextLine2={"MENU"}
+        />
       </div>
     </SectionContainer>
 
