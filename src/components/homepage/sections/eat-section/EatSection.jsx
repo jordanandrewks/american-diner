@@ -22,6 +22,16 @@ const EatSection = () => {
         <div className={styles.item}>item 4</div>
       </div>
     </SectionContainer>
+
+    // Todo - Make the items a component...
+    // inside this component - Show Image, Title
+    
+    /* Todo - Add a button on the right of this container,
+     what will fast forward you to the foods section. 
+     We can do the same for the Drinks and anything else...
+      There's no point in making every single one of them clickable...
+      . This should only be the case if we enable the order 
+      system in the future */
   );
 };
 
