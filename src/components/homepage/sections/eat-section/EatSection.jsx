@@ -8,7 +8,7 @@ const EatSection = () => {
   return (
     <SectionContainer>
       <div className={styles.container}>
-        <div className={styles.leftContainer}>
+        <div className={styles.foodContainer}>
           {/* Top Section, Winners of 2023 awards*/}
           <div className={styles.awardContainer}>
             <div className={styles.leftSection}>Left</div>

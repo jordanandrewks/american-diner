@@ -1,7 +1,11 @@
 import React from "react";
 import styles from "./SectionMenuButton.module.css";
 
-const SectionMenuButton = ({ placeHolderTextLine1, placeHolderTextLine2, placeHolderTextLine3 }) => {
+const SectionMenuButton = ({
+  placeHolderTextLine1,
+  placeHolderTextLine2,
+  placeHolderTextLine3,
+}) => {
   return (
     <div className={styles.container}>
       <div className={styles.buttonTextContainer}>

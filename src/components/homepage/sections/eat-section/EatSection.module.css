@@ -3,14 +3,8 @@
   margin: 5px;
 }
 
-.leftContainer {
+.foodContainer {
   flex: 1;
-}
-
-.rightContainer {
-  width: 100px;
-  margin: 5px;
-  background-color: rgb(31, 31, 31);
 }
 
 .itemContainer {
@@ -30,13 +24,13 @@
 .leftSection {
   flex: 1;
   margin: 5px;
-  background-color: rgb(31, 31, 31);
+  background-color: grey;
 }
 
 .rightSection {
   flex: 1;
   margin: 5px;
-  background-color: rgb(31, 31, 31);
+  background-color: grey;
 }
 
 .subTitle {

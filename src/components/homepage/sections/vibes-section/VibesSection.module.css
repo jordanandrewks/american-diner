@@ -1,13 +1,12 @@
 .container {
-    display: flex;
-    height: 400px;
-    margin: 5px;
-    justify-content: space-evenly;
+  display: flex;
+  height: 400px;
+  margin: 5px;
+  justify-content: space-evenly;
 }
 
 .eventContainer {
-    flex: 1;
-    background-color: grey;
-    margin: 5px
+  flex: 1;
+  background-color: grey;
+  margin: 5px;
 }
-
