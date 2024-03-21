@@ -9,13 +9,13 @@ export default function Navbar() {
       <div className={styles.navbarLogoContainer}>
         <Link href={"/"}>
           <Image
+            priority // must load first! This avoids "flash of unstyled content" (FOUC).
             src="/logo/navbar-logo.png"
             alt="logo"
             width={150}
             height={100}
             draggable={false}
             className={styles.navbarLogo}
-            priority  // must load first! This avoids "flash of unstyled content" (FOUC).
           />
         </Link>
       </div>
