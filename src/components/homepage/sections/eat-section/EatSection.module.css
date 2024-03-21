@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  margin: 5px;
 }
 
 .leftContainer {
@@ -7,7 +8,7 @@
 }
 
 .rightContainer {
-  width: 50px;
+  width: 100px;
   margin: 5px;
   background-color: rgb(31, 31, 31);
 }
@@ -16,14 +17,12 @@
   flex: 1;
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 20px;
 }
 
 .awardContainer {
   flex: 1;
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 20px;
   height: 300px;
   flex-direction: row;
 }
