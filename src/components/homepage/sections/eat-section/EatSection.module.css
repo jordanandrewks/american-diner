@@ -1,4 +1,18 @@
 .container {
+  display: flex;
+}
+
+.leftContainer {
+  flex: 1;
+}
+
+.rightContainer {
+  width: 50px;
+  margin: 5px;
+  background-color: rgb(31, 31, 31);
+}
+
+.itemContainer {
   flex: 1;
   display: flex;
   justify-content: space-evenly;
