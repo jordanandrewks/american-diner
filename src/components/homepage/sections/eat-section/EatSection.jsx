@@ -10,21 +10,25 @@ const EatSection = () => {
       src: "/homepage/food-highlights/FriesAI-Highlight.png",
       alt: "Specialty Fries Menu",
       url: "/",
+      displayText: "FRIES",
     },
     {
       src: "/homepage/food-highlights/AmericanDiner-Burger-Highlight.png",
       alt: "Burger Menu",
       url: "/",
+      displayText: "BURGERS",
     },
     {
       src: "/homepage/food-highlights/BBQ Ribs-Highlight.png",
       alt: "BBQ Menu",
       url: "/",
+      displayText: "BBQ",
     },
     {
       src: "/homepage/food-highlights/PizzaAi-Highlight.png",
       alt: "Pizza Menu",
       url: "/",
+      displayText: "PIZZA",
     },
   ];
 
@@ -45,6 +49,7 @@ const EatSection = () => {
                 imageSrc={item.src}
                 imageAlt={item.alt}
                 imageLink={item.url}
+                bannerText={item.displayText}
               />
             ))}
           </div>
