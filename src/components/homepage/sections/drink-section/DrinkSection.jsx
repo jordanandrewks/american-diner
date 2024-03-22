@@ -7,25 +7,25 @@ import SectionMenuButton from "../../section-menu-button/SectionMenuButton";
 const DrinkSection = () => {
   const drinkLinks = [
     {
-      src: "/homepage/food-highlights/FriesAI-Highlight.png",
+      src: "/homepage/drink-highlights/beer-Highlight.webp",
       alt: "Beers",
       url: "/",
       displayText: "BEERS",
     },
     {
-      src: "/homepage/food-highlights/AmericanDiner-Burger-Highlight.png",
+      src: "/homepage/drink-highlights/wine1-Highlight.webp",
       alt: "Wines",
       url: "/",
       displayText: "WINES",
     },
     {
-      src: "/homepage/food-highlights/BBQ Ribs-Highlight.png",
+      src: "/homepage/drink-highlights/whisky-Highlight.webp",
       alt: "Whiskies",
       url: "/",
       displayText: "WHISKIES",
     },
     {
-      src: "/homepage/food-highlights/PizzaAi-Highlight.png",
+      src: "/homepage/drink-highlights/cola-Highlight.webp",
       alt: "Soda",
       url: "/",
       displayText: "SODAS",
