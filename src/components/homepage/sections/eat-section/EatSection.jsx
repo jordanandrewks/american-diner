@@ -8,7 +8,7 @@ import HighlightsContainer from "./highlights-container/HighlightsContainer";
 const EatSection = () => {
   // TODO Make this load from an API!
   // TODO In the API, there needs to be a condition called DEV! So it will only go to DEV places, not deployed... i.e. devs logged in...
-  
+
   const foodSectionHighlightLinks = [
     {
       src: "/homepage/food-highlights/FriesAI-Highlight.png",
@@ -19,7 +19,7 @@ const EatSection = () => {
       subTitleTwo: "( IN STORE ONLY )",
       buttonTitleLine1: "READ",
       buttonTitleLine2: "MORE",
-      buttonTitleLine3: null
+      buttonTitleLine3: null,
     },
     {
       src: "/promo-photos/Wing Wednesday Promo 1.png",
@@ -30,7 +30,7 @@ const EatSection = () => {
       subTitleTwo: "( IN STORE ONLY )",
       buttonTitleLine1: "GOTO",
       buttonTitleLine2: "OFFER",
-      buttonTitleLine3: null
+      buttonTitleLine3: null,
     },
   ];
 
@@ -65,7 +65,7 @@ const EatSection = () => {
     <SectionContainer>
       <div className={styles.container}>
         <div className={styles.foodContainer}>
-          <HighlightsContainer />
+          <HighlightsContainer contents={foodSectionHighlightLinks} />
           <div className={styles.itemContainer}>
             {foodLinks.map((item) => (
               <FoodMenuItem
