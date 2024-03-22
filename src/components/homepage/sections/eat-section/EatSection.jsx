@@ -30,7 +30,7 @@ const EatSection = () => {
       title2: "WING WEDNESDAY",
       subTitle1: "£0.70 PER WING",
       subTitle2: "( IN STORE ONLY )",
-      buttonTitleLine1: "GOTO",
+      buttonTitleLine1: "GO TO",
       buttonTitleLine2: "OFFER",
       buttonTitleLine3: null,
     },
