@@ -12,7 +12,7 @@ const MenuItem = ({ imageSrc, imageAlt, imageLink, bannerText }) => {
     if (imageRef.current) {
       const imageStyle = imageRef.current.style;
       imageStyle.transition = "transform .15s ease-in-out";
-      imageStyle.transform = isHovered ? "scale(1.05)" : "scale(1)";
+      imageStyle.transform = isHovered ? "scale(1.1)" : "scale(1)";
     }
   }, [isHovered]);
 

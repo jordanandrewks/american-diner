@@ -5,6 +5,7 @@
   background-color: grey;
   position: relative;
   overflow: hidden;
+  transition: all 0.15s;
 }
 
 .textContainer {
@@ -51,4 +52,18 @@
 
 .buttonTextContainer p {
   margin: 0px;
+}
+
+.container:hover .imageZoomEffect {
+  transform: scale(
+    1.1
+  ); /* This will now trigger when the container is hovered */
+}
+
+.imageZoomEffect {
+  transition: transform 0.5s ease; /* Smooth transition for the zoom effect */
+}
+
+.imageZoomOnHover {
+  transform: scale(1.1); /* Adjust scale value as needed */
 }

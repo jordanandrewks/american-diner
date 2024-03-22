@@ -17,7 +17,7 @@ const HighlightItem = ({
   console.log(title2);
   return (
     <div className={styles.container}>
-      <Image src={src} alt={alt} layout="fill" objectFit="cover" />
+      <Image src={src} alt={alt} layout="fill" objectFit="cover" className={styles.imageZoomEffect} />
       <div className={styles.textContainer}>
         <div className={styles.titleContainer}>
           <p>{title1}</p>
