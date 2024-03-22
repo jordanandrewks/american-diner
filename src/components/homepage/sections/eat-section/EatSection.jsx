@@ -17,6 +17,9 @@ const EatSection = () => {
       title: "2023 RESTAURANT OF THE YEAR",
       subTitleOne: "£0.70 PER WING",
       subTitleTwo: "( IN STORE ONLY )",
+      buttonTitleLine1: "READ",
+      buttonTitleLine2: "MORE",
+      buttonTitleLine3: null
     },
     {
       src: "/promo-photos/Wing Wednesday Promo 1.png",
@@ -25,6 +28,9 @@ const EatSection = () => {
       title: "WING WEDNESDAY",
       subTitleOne: "£0.70 PER WING",
       subTitleTwo: "( IN STORE ONLY )",
+      buttonTitleLine1: "GOTO",
+      buttonTitleLine2: "OFFER",
+      buttonTitleLine3: null
     },
   ];
 
