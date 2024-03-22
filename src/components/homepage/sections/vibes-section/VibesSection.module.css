@@ -5,8 +5,3 @@
   justify-content: space-evenly;
 }
 
-.eventContainer {
-  flex: 1;
-  background-color: grey;
-  margin: 5px;
-}
