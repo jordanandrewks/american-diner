@@ -5,6 +5,29 @@ import SectionMenuButton from "../../section-menu-button/SectionMenuButton";
 import FoodMenuItem from "./food-menu-item/FoodMenuItem";
 
 const EatSection = () => {
+  const highlightedFoodLinks = [
+    {
+      src: "/homepage/food-highlights/FriesAI-Highlight.png",
+      alt: "Specialty Fries Menu",
+      url: "/",
+    },
+    {
+      src: "/homepage/food-highlights/AmericanDiner-Burger-Highlight.png",
+      alt: "Burger Menu",
+      url: "/",
+    },
+    {
+      src: "/homepage/food-highlights/BBQ Ribs-Highlight.png",
+      alt: "BBQ Menu",
+      url: "/",
+    },
+    {
+      src: "/homepage/food-highlights/PizzaAi-Highlight.png",
+      alt: "Pizza Menu",
+      url: "/",
+    },
+  ];
+
   return (
     <SectionContainer>
       <div className={styles.container}>
@@ -16,10 +39,14 @@ const EatSection = () => {
           </div>
 
           <div className={styles.itemContainer}>
-            <FoodMenuItem demoName={"Item 1"} />
-            <FoodMenuItem demoName={"Item 2"} />
-            <FoodMenuItem demoName={"Item 3"} />
-            <FoodMenuItem demoName={"Item 4"} />
+            {highlightedFoodLinks.map((item) => (
+              <FoodMenuItem
+                key={item.alt}
+                imageSrc={item.src}
+                imageAlt={item.alt}
+                imageLink={item.url}
+              />
+            ))}
           </div>
         </div>
         {/* To Menu Button */}
