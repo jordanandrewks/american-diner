@@ -11,9 +11,10 @@ const HighlightsContainer = ({ contents }) => {
           src={item.src}
           alt={item.alt}
           url={item.url}
-          title={item.title}
-          subTitleOne={item.subTitleOne}
-          subTitleTwo={item.subTitleTwo}
+          title1={item.title1}
+          title2={item.title2}
+          subTitle1={item.subTitle1}
+          subTitle2={item.subTitle2}
           buttonTitleLine1={item.buttonTitleLine1}
           buttonTitleLine2={item.buttonTitleLine2}
           buttonTitleLine3={item.buttonTitleLine3}

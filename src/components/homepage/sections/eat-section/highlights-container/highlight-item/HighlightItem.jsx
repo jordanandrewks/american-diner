@@ -5,15 +5,16 @@ const HighlightItem = ({
   src,
   alt,
   url,
-  title,
-  subTitleOne,
-  subTitleTwo,
+  title1,
+  title2,
+  subTitle1,
+  subTitle2,
   buttonTitleLine1,
   buttonTitleLine2,
   buttonTitleLine3,
 }) => {
-  console.log(title);
-  return <div className={styles.container}>{title}</div>;
+  console.log(title1);
+  return <div className={styles.container}>{title2}</div>;
 };
 
 export default HighlightItem;
