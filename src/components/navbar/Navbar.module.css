@@ -1,7 +1,7 @@
 .navbarContainer {
   display: flex;
   background-color: var(--primary-color);
-  border-bottom: solid 2px var(--secondary-color);
+  border-bottom: solid 5px var(--secondary-color);
   height: 100px;
   position: fixed;
   left: 0;
