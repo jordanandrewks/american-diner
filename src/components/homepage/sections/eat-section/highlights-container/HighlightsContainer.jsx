@@ -1,9 +1,13 @@
 import React from "react";
 import styles from "./HighlightsContainer.module.css";
+import HighlightItem from "./highlight-item/HighlightItem";
 
 const HighlightsContainer = () => {
   return (
-    <div>HighlightsContainer</div>
+    <div className={styles.container}>
+        <HighlightItem/>
+        <HighlightItem/>
+    </div>
   )
 }
 

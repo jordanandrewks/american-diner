@@ -3,9 +3,32 @@ import SectionContainer from "@/components/homepage/sections/SectionContainer";
 import styles from "./EatSection.module.css";
 import SectionMenuButton from "../../section-menu-button/SectionMenuButton";
 import FoodMenuItem from "./food-menu-item/FoodMenuItem";
+import HighlightsContainer from "./highlights-container/HighlightsContainer";
 
 const EatSection = () => {
-  const highlightedFoodLinks = [
+  // TODO Make this load from an API!
+  // TODO In the API, there needs to be a condition called DEV! So it will only go to DEV places, not deployed... i.e. devs logged in...
+  
+  const foodSectionHighlightLinks = [
+    {
+      src: "/homepage/food-highlights/FriesAI-Highlight.png",
+      alt: "Restaurant of the year promo",
+      url: "/",
+      title: "2023 RESTAURANT OF THE YEAR",
+      subTitleOne: "£0.70 PER WING",
+      subTitleTwo: "( IN STORE ONLY )",
+    },
+    {
+      src: "/promo-photos/Wing Wednesday Promo 1.png",
+      alt: "Wing Wednesday Promo",
+      url: "/",
+      title: "WING WEDNESDAY",
+      subTitleOne: "£0.70 PER WING",
+      subTitleTwo: "( IN STORE ONLY )",
+    },
+  ];
+
+  const foodLinks = [
     {
       src: "/homepage/food-highlights/FriesAI-Highlight.png",
       alt: "Specialty Fries Menu",
@@ -36,14 +59,9 @@ const EatSection = () => {
     <SectionContainer>
       <div className={styles.container}>
         <div className={styles.foodContainer}>
-          {/* Top Section, Winners of 2023 awards*/}
-          <div className={styles.awardContainer}>
-            <div className={styles.leftSection}>Left</div>
-            <div className={styles.rightSection}>Right</div>
-          </div>
-
+          <HighlightsContainer />
           <div className={styles.itemContainer}>
-            {highlightedFoodLinks.map((item) => (
+            {foodLinks.map((item) => (
               <FoodMenuItem
                 key={item.alt}
                 imageSrc={item.src}
