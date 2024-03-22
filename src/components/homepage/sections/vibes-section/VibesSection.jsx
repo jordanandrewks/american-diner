@@ -15,15 +15,15 @@ const Vibes = () => {
       subTitle2: null,
       eventDate: "FRIDAY 3RD MAY",
     },
-    {
-      src: "/homepage/events-highlights/sports/pexels-gotta-be-worth-it-5215129.webp",
-      alt: "Beer Tasting Event",
-      url: "/",
-      eventTitle: "BEER SAMPLERS",
-      subTitle1: "PRESENTED BY LONDON DINING CLUB",
-      subTitle2: null,
-      eventDate: "WEDNESDAY 4TH APRIL",
-    },
+    // {
+    //   src: "/homepage/events-highlights/events/pexels-gotta-be-worth-it-5215129.webp",
+    //   alt: "Beer Tasting Event",
+    //   url: "/",
+    //   eventTitle: "BEER SAMPLERS",
+    //   subTitle1: "PRESENTED BY LONDON DINING CLUB",
+    //   subTitle2: null,
+    //   eventDate: "WEDNESDAY 4TH APRIL",
+    // },
   ];
 
   return (
