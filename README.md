@@ -41,7 +41,17 @@ To summarize the practices. I've used components and segmented the app as much a
     The around this was to include the `postcss.config.js`. Essentially, this tells the browser the sequence in how to run your project. You can also include tools such as `postcss-reporter` to explain where there may be errors in your css. Resolve css conflicts or errors, and it'll help stop serialization errors. 
 
     
+### Key directories and places
 
+- **src** contains most of the app continents.
+- **src/app** the app router, basically the different webpages.
+- **src/components** all the components stored in one place.
+- **public** all assets such as image, and icons.
+- **lib** basically app utils, such as API stuff, Custom Hooks, Middleware, Helper Files, Config files etc...
+- **creation pack** place to design artwork and store rough images for later (don't rely on this, public is the one we use for presentation).
+  
+
+<br>
 <br>
 
 ## references
