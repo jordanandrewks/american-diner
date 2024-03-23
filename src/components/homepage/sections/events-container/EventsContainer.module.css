@@ -63,3 +63,12 @@
   background-color: rgba(0, 0, 0, 0.72);
   z-index: 1;
 }
+
+
+@media (max-width: 800px) {
+
+  .eventTitle {
+    font-size: 32px;
+  }
+
+}
