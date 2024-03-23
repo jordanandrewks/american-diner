@@ -27,13 +27,15 @@ const EventsContainer = ({ eventLinks }) => {
 
   return (
     <div className={styles.container}>
-      <Image
-        src={currentEvent.src}
-        alt={currentEvent.alt}
-        layout="fill"
-        objectFit="cover"
-        className={styles.imageContainer}
-      ></Image>
+      <div>
+        <Image
+          src={currentEvent.src}
+          alt={currentEvent.alt}
+          fill={true}
+          style={{ objectFit: "cover" }}
+          className={styles.imageContainer}
+        />
+      </div>
       <div className={styles.overlay}></div>
       <div className={styles.textContainer}>
         <p className={styles.eventTitle}>{currentEvent.eventTitle}</p>

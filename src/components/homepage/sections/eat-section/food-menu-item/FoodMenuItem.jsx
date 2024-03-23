@@ -19,7 +19,15 @@ const MenuItem = ({ imageSrc, imageAlt, imageLink, bannerText }) => {
   return (
     <div className={styles.container}>
       <div className={styles.imageContainer} ref={imageRef}>
-        <Image src={imageSrc} alt={imageAlt} layout="fill" objectFit="cover" />
+        <div style={{ position: "relative", width: "100%", height: "100%" }}>
+          {/* Seems convoluted, but to avoid errors about depreciated code. This is the best way so far */}
+          <Image
+            style={{ objectFit: "cover" }}
+            src={imageSrc}
+            alt={imageAlt}
+            fill={true}
+          />
+        </div>
       </div>
       <div
         className={styles.banner}

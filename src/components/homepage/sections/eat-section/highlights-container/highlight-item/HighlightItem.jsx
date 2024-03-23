@@ -19,8 +19,8 @@ const HighlightItem = ({
       <Image
         src={src}
         alt={alt}
-        layout="fill"
-        objectFit="cover"
+        fill={true}
+        style={{ objectFit: "cover" }}
         className={styles.imageZoomEffect}
       />
       <div className={styles.textContainer}>
