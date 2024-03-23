@@ -43,12 +43,14 @@ To summarize the practices. I've used components and segmented the app as much a
     
 ### Key directories and places
 
-- **src** contains most of the app continents.
-- **src/app** the app router, basically the different webpages.
-- **src/components** all the components stored in one place.
-- **public** all assets such as image, and icons.
-- **lib** basically app utils, such as API stuff, Custom Hooks, Middleware, Helper Files, Config files etc...
-- **creation pack** place to design artwork and store rough images for later (don't rely on this, public is the one we use for presentation).
+- **/src** contains most of the app continents.
+- **/src/app** the app router, basically the different webpages.
+- **/src/components** all the components stored in one place.
+- **/public** all assets such as image, and icons.
+- **/lib** basically app utils, such as API stuff, Custom Hooks, Middleware, Helper Files, Config files etc...
+- **/creation pack** place to design artwork and store rough images for later (don't rely on this, public is the one we use for presentation).
+- **postcss.config.js** allows you to customize how CSS is processed in your project. Can be used to enhance css code before it's served to the browser.
+  
   
 
 <br>
