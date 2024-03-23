@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 body {
   margin-top: 100px;
@@ -13,4 +13,8 @@ body {
   --primary-color: rgb(2, 2, 2);
   --secondary-color: rgb(234, 122, 18);
   --secondary-color-hover: rgb(255, 175, 46);
+
+  /* Home screen size variations */
+  --small-screen-size-title-font-size: 24px;
+  --small-screen-size-subtitle-font-size: 14px;
 }

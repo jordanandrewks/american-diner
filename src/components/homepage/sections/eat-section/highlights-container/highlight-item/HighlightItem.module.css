@@ -67,3 +67,22 @@
 .imageZoomOnHover {
   transform: scale(1.1); /* Adjust scale value as needed */
 }
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .buttonContainer {
+    height: 70px;
+    width: auto;
+  }
+
+  .titleContainer {
+    font-size: var(--small-screen-size-title-font-size);
+  }
+
+  .subTitleContainer {
+    font-size: var(--small-screen-size-subtitle-font-size);
+  }
+}

@@ -17,3 +17,13 @@
 .buttonText {
   margin: 0px;
 }
+
+@media (max-width: 800px) {
+  .container {
+    width: 100px;
+  }
+
+  .buttonTextContainer {
+    font-size: 16px;
+  }
+}

@@ -36,3 +36,10 @@
 .subTitle {
   font-size: 30px;
 }
+
+@media (max-width: 1200px) {
+  .itemContainer {
+    flex-direction: column;
+    height: 400px;
+  }
+}

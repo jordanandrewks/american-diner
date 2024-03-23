@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./HighlightsContainer.module.css";
 import HighlightItem from "./highlight-item/HighlightItem";
 
+// todo - add media here:
 const HighlightsContainer = ({ contents }) => {
   return (
     <div className={styles.container}>
