@@ -50,12 +50,18 @@ To summarize the practices. I've used components and segmented the app as much a
 - **/lib** basically app utils, such as API stuff, Custom Hooks, Middleware, Helper Files, Config files etc...
 - **/creation pack** place to design artwork and store rough images for later (don't rely on this, public is the one we use for presentation).
 - **postcss.config.js** allows you to customize how CSS is processed in your project. Can be used to enhance css code before it's served to the browser.
-  
-  
+<br>
+<br>
+<br>
+### Noteworthy Plugins and Packages
+
+- **next/image (<Image/>)** this is common everywhere, refer to the docs, it's nextJs' way of rendering images.
+- **mongoose** Object Data Modeling (ODM) library for MongoDB. (Like creating a schema to safely interact with the MongoDB database). ``
+- 
 
 <br>
 <br>
-
+<br>
 ## references
 [1] https://www.cucinarustica.co.uk/  
 [2] https://www.wingstop.co.uk/  
