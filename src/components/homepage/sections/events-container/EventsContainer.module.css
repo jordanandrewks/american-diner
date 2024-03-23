@@ -64,11 +64,8 @@
   z-index: 1;
 }
 
-
 @media (max-width: 800px) {
-
   .eventTitle {
     font-size: 32px;
   }
-
 }
