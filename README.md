@@ -55,7 +55,7 @@ To summarize the practices. I've used components and segmented the app as much a
 <br>
 ### Noteworthy Plugins and Packages
 
-- **next/image (<Image/>)** this is common everywhere, refer to the docs, it's nextJs' way of rendering images.
+- **next/image (<Image/>)** this is common everywhere, refer to the docs, its nextJs' way of rendering images.
 - **mongoose** Object Data Modeling (ODM) library for MongoDB. (Like creating a schema to safely interact with the MongoDB database). 
 - **autoprefixer** used in `postcss.config.js` - applies rules to your css code [readmore](https://github.com/postcss/autoprefixer).
 - **postcss-reporter** used in `postcss.config.js` - helps points out errors and more clear warnings to your css [readmore](https://github.com/postcss/postcss-reporter).
@@ -64,26 +64,22 @@ To summarize the practices. I've used components and segmented the app as much a
 <br>
 <br>
 <br>
+
 ## references
-[1] https://www.cucinarustica.co.uk/  
-[2] https://www.wingstop.co.uk/  
-[3] https://www.youtube.com/watch?v=TaXql0h_wCA  
+[1] https://www.cucinarustica.co.uk/ <br>
+[2] https://www.wingstop.co.uk/ <br>
+[3] https://www.youtube.com/watch?v=TaXql0h_wCA <br>
 [4] https://youtu.be/vCOSTG10Y4o?si=djYTVZqD922Zu9Es <br>
+ 
+
+<br>
 <br>
 <br>
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+***Default NextJS docs below***  
+
 <br>
-<br>
-<br>
-***Init Next JS Docs Below***  
-|  
-|  
-|  
-|  
-|  
-|  
-|  
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).  
 
 ## Getting Started  
 
