@@ -3,6 +3,11 @@
 Welcome to the American diner web app. <br>
 You can think of this app as a 'mule' to test new web technologies and practice.<br>
 
+##
+
+### How do I start this thing?
+simple. `npm run dev`... Then open http://localhost:3000/
+
 ### Design practices
 I've mainly followed [4] (LamaDev) to design this.  
 I've used a lot of components and css modules, and kept away from using tailwind. I feel this is a good way to understand the flow of things as beginner.  
