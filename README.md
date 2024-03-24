@@ -57,6 +57,11 @@ To summarize the practices. I've used components and segmented the app as much a
 
 - **next/image (`<Image/>`)** this is common everywhere, refer to the docs, its nextJs' way of rendering images.
   <br>
+
+- **mongodb** Database.  
+    `npm install mongodb`
+    <br>
+
 - **mongoose** Object Data Modeling (ODM) library for MongoDB. (Like creating a schema to safely interact with the MongoDB database).  
     `npm install mongoose`
   <br>
@@ -68,6 +73,13 @@ To summarize the practices. I've used components and segmented the app as much a
 - **postcss-reporter** used in `postcss.config.js` - helps points out errors and more clear warnings to your css [readmore](https://github.com/postcss/postcss-reporter).  
     `npm install postcss-reporter --save-dev`
   <br>
+
+
+### Database info
+- If you want to use a custom mongoDB database; the url normally looks like this:  
+    `mongodb+srv://user:<password>@cluster0.onwroro.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0` <br>
+    insert your **user**, **password**... For specific database access in the cluster, before `?retryWrites` insert the db name... Something like this:  <br>
+    `mongodb+srv://mrsmith:9283298dind3@cluster0.onwroro.mongodb.net/databaseOfPuppies?retryWrites=true&w=majority&appName=Cluster0`
 
 
 <br>
