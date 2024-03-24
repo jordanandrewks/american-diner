@@ -1,6 +1,4 @@
-"use client";
 
-import Head from "next/head";
 import AnnouncementBanner from "@/components/banners/announcement-banner/Announcement";
 import styles from "../components/homepage/HomePage.module.css";
 import VideoPlayer from "@/components/homepage/video-player/VideoPlayer";
@@ -9,17 +7,15 @@ import DrinkSection from "@/components/homepage/sections/drink-section/DrinkSect
 import VibesSection from "@/components/homepage/sections/vibes-section/VibesSection";
 import LiveSportsSection from "@/components/homepage/sections/live-sports-section/LiveSportsSection";
 import HeroDivider from "@/components/homepage/hero-divider/HeroDivider";
+import { connectToDb } from "@/lib/utils";
 
-export default function Home() {
-  const announcementBanner = false;
+export default async function Home() {
 
+  await connectToDb();
+
+  const announcementBanner = true;
   return (
     <>
-      <Head>
-        <link rel="preload" href="/logo/navbar-logo.png" as="style">
-          {" "}
-        </link>
-      </Head>
       {/* Announcements on the homepage only. */}
       {announcementBanner && <AnnouncementBanner />}
       <div className={styles.hero}>

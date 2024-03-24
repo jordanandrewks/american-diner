@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-const { schema } = mongoose;
+const { Schema } = mongoose;
 
 const bannerAnnouncements = new Schema(
   {
@@ -24,3 +24,7 @@ const bannerAnnouncements = new Schema(
   },
   { timestamps: true }
 );
+
+
+/* This expression tries to find an already defined model named BannerAnnouncements in Mongoose's model cache */
+export const BannerAnnouncements = mongoose.models.BannerAnnouncements || mongoose.model("BannerAnnouncements", bannerAnnouncements, "banner-announcements");

@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useEffect, useRef, useState } from "react";
 import PlayPauseButton from "../play-pause-button/PlayPauseButton";
 import style from "./VideoPlayer.module.css";

@@ -1,6 +1,13 @@
+
+import { getBannerAnnouncement } from "@/lib/data";
 import styles from "./Announcement.module.css";
 
-const AnnouncementBanner = () => {
+const AnnouncementBanner = async () => {
+
+  const test = await getBannerAnnouncement();
+
+  console.log(test);
+
   return (
     <div className={styles.container}>
       <div className={styles.scrollContainer}>
