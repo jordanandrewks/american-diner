@@ -1,38 +1,41 @@
 import React, { useState, useEffect } from "react";
-import { getBannerAnnouncement } from "@/lib/mongo/data";
 
 const useFetchBannerAnnouncement = () => {
   const [announcement, setAnnouncement] = useState(null);
-  const [banner, setBanner] = useState(null);
-  const [isLoading, setIsLoading] = useState(null);
+  const [banner, setBanner] = useState(false);
+  const [isLoading, setIsLoading] = useState(true); // Assume loading starts immediately
   const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchAnnouncement = async () => {
-      setIsLoading(true);
       try {
-        const fetchedAnnouncement = await getBannerAnnouncement();
+        const response = await fetch("/api/test/test");
 
-        if (fetchedAnnouncement) {
-          /* Rules for presenting banner 
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const fetchedAnnouncement = await response.json();
+
+        setAnnouncement(fetchedAnnouncement);
+
+        /* Rules for presenting banner 
             1) bannerIsOn IS true (owner may want override an announcement, hence can be toggle)
             2) startTime is GREATER than the current time
             3) endTime is is LESS than the current time
           */
 
-          const currentTime = new Date();
-          const startTime = new Date(fetchedAnnouncement.startTime);
-          const endTime = new Date(fetchedAnnouncement.endTime);
-          const bannerIsOn = fetchedAnnouncement.bannerIsOn;
+        const currentTime = new Date();
+        const startTime = new Date(fetchedAnnouncement.startTime);
+        const endTime = new Date(fetchedAnnouncement.endTime);
 
-          if (bannerIsOn && currentTime > startTime && currentTime < endTime) {
-            setBanner(true);
-          } else {
-            setBanner(false);
-          }
-        }
-      } catch {
-        setError(true);
+        setBanner(
+          fetchedAnnouncement.bannerIsOn &&
+            currentTime > startTime &&
+            currentTime < endTime
+        );
+      } catch (error) {
+        setError(error.message); // Store the actual error message
       } finally {
         setIsLoading(false);
       }
@@ -41,7 +44,6 @@ const useFetchBannerAnnouncement = () => {
     fetchAnnouncement();
   }, []);
 
-  /* really only need banner & error - but I'll return them all just for the sake of it... */
   return { announcement, banner, isLoading, error };
 };
 

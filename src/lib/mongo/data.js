@@ -1,5 +1,5 @@
-import { connectToDb } from "./utils";
-import { BannerAnnouncements } from "../models/models";
+import { BannerAnnouncements } from "../models/bannerAnnouncementsModel";
+import { connectToDb } from "./connectToMongoDb";
 
 export const getBannerAnnouncement = async () => {
   try {
