@@ -9,7 +9,7 @@ const useFetchBannerAnnouncement = () => {
   useEffect(() => {
     const fetchAnnouncement = async () => {
       try {
-        const response = await fetch("/api/test/test");
+        const response = await fetch("/api/banner-announcement");
 
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
