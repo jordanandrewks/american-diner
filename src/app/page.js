@@ -10,8 +10,6 @@ import HeroDivider from "@/components/homepage/hero-divider/HeroDivider";
 export default async function Home() {
   return (
     <>
-      {/* Announcements on the homepage only. */}
-      <AnnouncementBanner />
       <div className={styles.hero}>
         <VideoPlayer src="/videos/hero-video-2024.mp4" />
         <div className={styles.overlay}>
