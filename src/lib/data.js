@@ -1,5 +1,5 @@
-import { BannerAnnouncements } from "./models";
 import { connectToDb } from "./utils";
+import { BannerAnnouncements } from "./models";
 
 export const getBannerAnnouncement = async () => {
   try {
@@ -15,4 +15,3 @@ export const getBannerAnnouncement = async () => {
     throw new Error("Failed to fetch bannerAnnouncement");
   }
 };
-

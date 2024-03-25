@@ -7,17 +7,12 @@ import DrinkSection from "@/components/homepage/sections/drink-section/DrinkSect
 import VibesSection from "@/components/homepage/sections/vibes-section/VibesSection";
 import LiveSportsSection from "@/components/homepage/sections/live-sports-section/LiveSportsSection";
 import HeroDivider from "@/components/homepage/hero-divider/HeroDivider";
-import { connectToDb } from "@/lib/utils";
 
 export default async function Home() {
-
-  await connectToDb();
-
-  const announcementBanner = true;
   return (
     <>
       {/* Announcements on the homepage only. */}
-      {announcementBanner && <AnnouncementBanner />}
+      <AnnouncementBanner />
       <div className={styles.hero}>
         <VideoPlayer src="/videos/hero-video-2024.mp4" />
         <div className={styles.overlay}>

@@ -1,12 +1,11 @@
-
-import { getBannerAnnouncement } from "@/lib/data";
+"use client";
 import styles from "./Announcement.module.css";
+// import useFetchBannerAnnouncement from "@/hooks/useFetchBannerAnnouncement";
 
-const AnnouncementBanner = async () => {
 
-  const test = await getBannerAnnouncement();
-
-  console.log(test);
+const AnnouncementBanner = () => {
+  // const { announcement, banner, isLoading, error } =
+    // useFetchBannerAnnouncement();
 
   return (
     <div className={styles.container}>

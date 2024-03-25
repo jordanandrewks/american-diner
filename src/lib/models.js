@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 const { Schema } = mongoose;
 
-const bannerAnnouncements = new Schema(
+const bannerAnnouncementsSchema = new Schema(
   {
     bannerIsOn: {
       type: Boolean,
@@ -27,4 +27,4 @@ const bannerAnnouncements = new Schema(
 
 
 /* This expression tries to find an already defined model named BannerAnnouncements in Mongoose's model cache */
-export const BannerAnnouncements = mongoose.models.BannerAnnouncements || mongoose.model("BannerAnnouncements", bannerAnnouncements, "banner-announcements");
+export const BannerAnnouncements = mongoose.models.BannerAnnouncements || mongoose.model("BannerAnnouncements", bannerAnnouncementsSchema, "banner-announcements");
