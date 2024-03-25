@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getBannerAnnouncement } from "@/lib/data";
+import { getBannerAnnouncement } from "@/lib/mongo/data";
 
 const useFetchBannerAnnouncement = () => {
   const [announcement, setAnnouncement] = useState(null);
