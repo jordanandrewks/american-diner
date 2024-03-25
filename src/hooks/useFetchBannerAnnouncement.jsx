@@ -17,7 +17,7 @@ const useFetchBannerAnnouncement = () => {
 
         const fetchedAnnouncement = await response.json();
 
-        setAnnouncement(fetchedAnnouncement);
+        setAnnouncement(fetchedAnnouncement.announcement);
 
         /* Rules for presenting banner 
             1) bannerIsOn IS true (owner may want override an announcement, hence can be toggle)

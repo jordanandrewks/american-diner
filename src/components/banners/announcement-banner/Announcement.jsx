@@ -12,10 +12,7 @@ const AnnouncementBanner = () => {
   return banner ? (
     <div className={styles.container}>
       <div className={styles.scrollContainer}>
-        <div className={styles.scrollText}>
-          This is your scrolling announcement text. Add more content here as
-          needed.
-        </div>
+        <div className={styles.scrollText}>{announcement}</div>
       </div>
     </div>
   ) : null;
