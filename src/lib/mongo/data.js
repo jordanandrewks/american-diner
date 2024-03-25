@@ -1,5 +1,5 @@
 import { connectToDb } from "./utils";
-import { BannerAnnouncements } from "./models";
+import { BannerAnnouncements } from "../models/models";
 
 export const getBannerAnnouncement = async () => {
   try {
