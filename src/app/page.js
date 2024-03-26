@@ -1,4 +1,3 @@
-import AnnouncementBanner from "@/components/banners/announcement-banner/Announcement";
 import styles from "../components/homepage/HomePage.module.css";
 import VideoPlayer from "@/components/homepage/video-player/VideoPlayer";
 import EatSection from "@/components/homepage/sections/eat-section/EatSection";

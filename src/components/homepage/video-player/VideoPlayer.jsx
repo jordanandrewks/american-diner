@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useEffect, useRef, useState } from "react";
 import PlayPauseButton from "../play-pause-button/PlayPauseButton";
@@ -39,7 +39,13 @@ const VideoPlayer = ({ src }) => {
 
   return (
     <div className={style.videoContainer}>
-      <video preload="auto" ref={videoRef} className={style.heroVideo} loop muted>
+      <video
+        preload="auto"
+        ref={videoRef}
+        className={style.heroVideo}
+        loop
+        muted
+      >
         <source src={src} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
