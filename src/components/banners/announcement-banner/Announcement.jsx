@@ -1,5 +1,5 @@
 "use client";
-// import test from "@/pages/api/test/test";
+
 import styles from "./Announcement.module.css";
 import useFetchBannerAnnouncement from "@/hooks/useFetchBannerAnnouncement";
 
