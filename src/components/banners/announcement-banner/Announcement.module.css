@@ -1,9 +1,16 @@
+/* Initial state: hidden above the viewport */
 .container {
   display: flex;
-  height: 50px;
+  height: 0; /* Start with 0 height */
+  overflow: hidden; /* Prevent showing any content when height is 0 */
   background-color: rgb(234, 122, 18);
+  transition: height 0.5s ease-out; /* Smooth transition for height */
 }
 
+/* Final state: visible within the viewport */
+.container.show {
+  height: 50px; /* Final height of the banner */
+}
 
 /* Container to hold the scrolling text, ensuring the text moves within bounds */
 .scrollContainer {
