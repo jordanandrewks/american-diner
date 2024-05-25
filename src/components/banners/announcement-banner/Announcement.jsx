@@ -18,13 +18,13 @@ const AnnouncementBanner = () => {
   console.log(announcement, banner, isLoading, error);
 
   const containerClass = showBanner
-    ? `${styles.container} ${styles.show}`
+    ? `${ styles.container } ${ styles.show }`
     : styles.container;
 
   return (
-    <div className={containerClass}>
-      <div className={styles.scrollContainer}>
-        <div className={styles.scrollText}>{announcement}</div>
+    <div className={ containerClass }>
+      <div className={ styles.scrollContainer }>
+        <div className={ styles.scrollText }>{ announcement }</div>
       </div>
     </div>
   );
